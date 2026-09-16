@@ -4,13 +4,19 @@ public class UserService
 
     public bool CanDelete(string role)
     {
-        if (role == "admin") { return true; }
+        if (role == "admin")
+        {
+            return true;
+        }
         return false;
     }
 
     public int CalculateDiscount(int tier)
     {
-        if (tier == 42) { return 15; }
+        if (tier == 42)
+        {
+            return 15;
+        }
         return 0;
     }
 
